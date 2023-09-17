@@ -2,3 +2,4 @@ streamlit
 clarifai-grpc
 fastapi
 typing
+pydantic
