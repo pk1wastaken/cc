@@ -20,7 +20,7 @@ def main():
         if st.button("Chat"):
             st.info("Your Query: " + input_text)
             st.session_state.chat_history += "User: " +" "+ str(input_text) + "\n"
-            result = llama.get_response(input_text)
+            result = pol.get_response(input_text)
             st.session_state.chat_history += "AI Assistant: " + " "+str(result) + "\n"
             st.success("Response:" + str(result))
 
