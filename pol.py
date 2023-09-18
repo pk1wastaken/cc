@@ -15,13 +15,13 @@ import streamlit as st
 app = FastAPI()
 
 # Your PAT (Personal Access Token) can be found in the portal under Authentification
-PAT = 'ccfaeadaf9cc48988c5fc0bd73763fe2'
+PAT = 'c0ea2e912a674c6eb75c110bd43b256b'
 # Specify the correct user_id/app_id pairings
 # Since you're making inferences outside your app's scope
-USER_ID = 'pk1wastaken'
-APP_ID = 'my-first-application-zz1nsy'
+USER_ID = 'pols'
+APP_ID = 'my-first-application-rhekg'
 # Change these to whatever model and text URL you want to use
-WORKFLOW_ID = 'workflow-657112'
+WORKFLOW_ID = 'workflow-f256c5'
 TEXT_FILE_URL = 'https://samples.clarifai.com/negative_sentence_12.txt'
 ############################################################################
 # YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS LINE TO RUN THIS EXAMPLE
